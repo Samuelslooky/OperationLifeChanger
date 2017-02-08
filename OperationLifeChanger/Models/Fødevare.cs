@@ -7,10 +7,26 @@ namespace OperationLifeChanger.Models
 {
     public class Fødevare
     {
+
+        public string Navn; 
+
         public double Protein;
 
-        public double Fedt;
+        public Dictionary<string, double> Fedt;
 
-        public double Kulhydrat; 
+        public Dictionary<string, double> Kulhydrat;
+
+        public Dictionary<string, double> Vitaminer;
+
+        public Dictionary<string, double> Mineraler;
+
+        public Fødevare( )
+        {
+
+        }
+
+
     }
 }
+    
+
