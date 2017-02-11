@@ -8,7 +8,9 @@ namespace OperationLifeChanger.Models
     public class Fødevare
     {
 
-        public string Navn; 
+        public string Navn;
+
+        public string Beskrivelse;
 
         public double Protein;
 
