@@ -1,5 +1,10 @@
-﻿body {
-    position: relative; 
+﻿
+#udfyldningsKolonne {
+    position:relative;
+    bottom:175px;
+    left:200px;
 }
 
+#knapperDiv {
 
+}

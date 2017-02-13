@@ -42,6 +42,5 @@ E:\Projects\OperationLifeChanger\OperationLifeChanger\bin\Microsoft.AI.Web.xml
 E:\Projects\OperationLifeChanger\OperationLifeChanger\bin\Microsoft.AI.WindowsServer.xml
 E:\Projects\OperationLifeChanger\OperationLifeChanger\bin\Microsoft.ApplicationInsights.xml
 E:\Projects\OperationLifeChanger\OperationLifeChanger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\Projects\OperationLifeChanger\OperationLifeChanger\obj\Debug\OperationLifeChanger.csprojResolveAssemblyReference.cache
 E:\Projects\OperationLifeChanger\OperationLifeChanger\obj\Debug\OperationLifeChanger.dll
 E:\Projects\OperationLifeChanger\OperationLifeChanger\obj\Debug\OperationLifeChanger.pdb

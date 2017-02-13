@@ -12,22 +12,26 @@ namespace OperationLifeChanger.Models
 
         public string Beskrivelse;
 
-        public double Protein;
+        public Protein Protein;
 
-        public Dictionary<string, double> Fedt;
+        public Fedt Fedt;
 
-        public Dictionary<string, double> Kulhydrat;
+        public Kulhydrat Kulhydrat;
 
-        public Dictionary<string, double> Vitaminer;
+        public Vitaminer Vitaminer;
 
-        public Dictionary<string, double> Mineraler;
+        public Mineraler Mineraler;
 
-        public Fødevare( )
+        public Fødevare(string navn, string beskrivelse, Protein protein, Fedt fedt, Kulhydrat kulhydrat, Vitaminer vitaminer, Mineraler mineraler)
         {
-
+            Navn = navn;
+            Beskrivelse = beskrivelse;
+            Protein = protein;
+            Fedt = fedt;
+            Kulhydrat = kulhydrat;
+            Vitaminer = vitaminer;
+            Mineraler = mineraler;
         }
-
-
     }
 }
     

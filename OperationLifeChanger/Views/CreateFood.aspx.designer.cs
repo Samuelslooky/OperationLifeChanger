@@ -31,15 +31,6 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.WebControls.TextBox fødevareNavnFelt;
         
         /// <summary>
-        /// KalorierPr100Felt control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox KalorierPr100Felt;
-        
-        /// <summary>
         /// samletProteinFelt control.
         /// </summary>
         /// <remarks>
@@ -67,12 +58,21 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.WebControls.TextBox samletFedtFelt;
         
         /// <summary>
-        /// BeskrivelseFelt control.
+        /// beskrivelseFelt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox BeskrivelseFelt;
+        protected global::System.Web.UI.WebControls.TextBox beskrivelseFelt;
+        
+        /// <summary>
+        /// OpretFødevareKnap control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button OpretFødevareKnap;
     }
 }

@@ -132,10 +132,17 @@
     <Content Include="Bootstrap\scripts\jquery-3.1.1.slim.js" />
     <Content Include="Bootstrap\scripts\jquery-3.1.1.slim.min.js" />
     <Content Include="Views\CreateFood.aspx" />
+    <Content Include="Views\Main.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\DataBaseConnection.cs" />
+    <Compile Include="Models\Fedt.cs" />
     <Compile Include="Models\Fødevare.cs" />
+    <Compile Include="Models\Kulhydrat.cs" />
+    <Compile Include="Models\Mineraler.cs" />
+    <Compile Include="Models\Protein.cs" />
+    <Compile Include="Models\Vitaminer.cs" />
     <Compile Include="Views\CreateFood.aspx.cs">
       <DependentUpon>CreateFood.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,6 +151,13 @@
       <DependentUpon>CreateFood.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
