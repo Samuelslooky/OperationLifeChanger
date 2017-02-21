@@ -7,13 +7,13 @@ namespace OperationLifeChanger.Models
 {
     public class Fedt
     {
-        private double SamletFedt;
+        public double SamletFedt;
 
-        private double MættetFedt;
+        public double MættetFedt;
 
-        private double FlerumættetFedtsyrer;
+        public double FlerumættetFedtsyrer;
 
-        private double EnkeltumættetFedtsyrer;
+        public double EnkeltumættetFedtsyrer;
 
         public Fedt(double samletFedt, double mættetFedt, double flerumættetFedtsyrer, double enkeltumættetFedtsyrer)
         {

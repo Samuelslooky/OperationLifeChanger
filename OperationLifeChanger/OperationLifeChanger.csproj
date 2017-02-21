@@ -95,12 +95,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\MainStyling.css" />
+    <Content Include="Javascript\MainScript.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Bootstrap util\scripts\jquery-3.1.1.slim.min.map" />
-    <Content Include="Bootstrap util\scripts\jquery-3.1.1.min.map" />
+    <Content Include="Javascript\bootstrap_scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Javascript\bootstrap_scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,8 +115,8 @@
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="Bootstrap util\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Bootstrap util\scripts\ai.0.22.9-build00167.js" />
-    <Content Include="Bootstrap util\scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Javascript\bootstrap_scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Javascript\bootstrap_scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Bootstrap util\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Bootstrap util\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Bootstrap util\fonts\glyphicons-halflings-regular.ttf" />
@@ -124,13 +125,13 @@
     <Content Include="CSS\bootstrap.css.map" />
     <Content Include="CSS\bootstrap-theme.min.css.map" />
     <Content Include="CSS\bootstrap-theme.css.map" />
-    <Content Include="Bootstrap util\scripts\bootstrap.js" />
-    <Content Include="Bootstrap util\scripts\bootstrap.min.js" />
-    <None Include="Bootstrap util\scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="Bootstrap util\scripts\jquery-3.1.1.js" />
-    <Content Include="Bootstrap util\scripts\jquery-3.1.1.min.js" />
-    <Content Include="Bootstrap util\scripts\jquery-3.1.1.slim.js" />
-    <Content Include="Bootstrap util\scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Javascript\bootstrap_scripts\bootstrap.js" />
+    <Content Include="Javascript\bootstrap_scripts\bootstrap.min.js" />
+    <None Include="Javascript\bootstrap_scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Javascript\bootstrap_scripts\jquery-3.1.1.js" />
+    <Content Include="Javascript\bootstrap_scripts\jquery-3.1.1.min.js" />
+    <Content Include="Javascript\bootstrap_scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Javascript\bootstrap_scripts\jquery-3.1.1.slim.min.js" />
     <Content Include="Views\CreateFood.aspx" />
     <Content Include="Views\Main.aspx" />
     <Content Include="Web.config" />

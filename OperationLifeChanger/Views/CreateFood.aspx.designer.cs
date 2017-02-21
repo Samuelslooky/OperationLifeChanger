@@ -31,6 +31,15 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.WebControls.TextBox fødevareNavnFelt;
         
         /// <summary>
+        /// beskrivelseFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox beskrivelseFelt;
+        
+        /// <summary>
         /// samletProteinFelt control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,24 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.WebControls.TextBox samletKulhydratFelt;
         
         /// <summary>
+        /// sukkerarterFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox sukkerarterFelt;
+        
+        /// <summary>
+        /// FifreFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox FifreFelt;
+        
+        /// <summary>
         /// samletFedtFelt control.
         /// </summary>
         /// <remarks>
@@ -58,13 +85,148 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.WebControls.TextBox samletFedtFelt;
         
         /// <summary>
-        /// beskrivelseFelt control.
+        /// MættetFedtFelt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox beskrivelseFelt;
+        protected global::System.Web.UI.WebControls.TextBox MættetFedtFelt;
+        
+        /// <summary>
+        /// FlerFedtFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox FlerFedtFelt;
+        
+        /// <summary>
+        /// EnkeltFedtFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EnkeltFedtFelt;
+        
+        /// <summary>
+        /// VitaminAFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox VitaminAFelt;
+        
+        /// <summary>
+        /// VitaminB1Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox VitaminB1Felt;
+        
+        /// <summary>
+        /// ViatminB2Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminB2Felt;
+        
+        /// <summary>
+        /// ViatminB3Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminB3Felt;
+        
+        /// <summary>
+        /// ViatminB5Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminB5Felt;
+        
+        /// <summary>
+        /// ViatminB6Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminB6Felt;
+        
+        /// <summary>
+        /// ViatminB7Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminB7Felt;
+        
+        /// <summary>
+        /// ViatminB9Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminB9Felt;
+        
+        /// <summary>
+        /// ViatminB12Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminB12Felt;
+        
+        /// <summary>
+        /// ViatminCFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminCFelt;
+        
+        /// <summary>
+        /// ViatminDFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminDFelt;
+        
+        /// <summary>
+        /// ViatminEFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminEFelt;
+        
+        /// <summary>
+        /// ViatminKFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ViatminKFelt;
         
         /// <summary>
         /// OpretFødevareKnap control.

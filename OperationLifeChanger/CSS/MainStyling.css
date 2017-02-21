@@ -1,10 +1,46 @@
 ﻿
-#udfyldningsKolonne {
-    position:relative;
-    bottom:175px;
-    left:200px;
+.entryPairLarge {
+    margin-bottom: 15px; 
 }
 
-#knapperDiv {
+.entryPairMedium {
+    margin-bottom: 15px; 
+}
 
+.entryPairSmall {
+    margin-bottom: 15px; 
+}
+
+.bottomButtonLine {
+    margin-bottom: 15px; 
+    margin-top: 25px;
+}
+
+.infoBlock {
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    border-bottom-width: 10px;
+    border-style: solid;
+    background:lightgrey;
+    border-color: white;
+}
+
+.protein.infoBlock {
+    background:pink;
+}
+
+.kulhydrat.infoBlock {
+    background:orange;
+}
+
+.fedt.infoBlock {
+    background:lightyellow;
+}
+
+.vitaminer.infoBlock {
+    background:lightgreen;
+}
+
+.mineraler.infoBlock {
+    background:lightblue;
 }

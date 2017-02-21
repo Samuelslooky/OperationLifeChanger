@@ -7,7 +7,7 @@ namespace OperationLifeChanger.Models
 {
     public class Protein
     {
-        private double SamletProtein;
+        public double SamletProtein;
 
         public Protein(double samletProtein)
         {

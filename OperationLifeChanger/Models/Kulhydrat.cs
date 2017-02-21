@@ -7,11 +7,11 @@ namespace OperationLifeChanger.Models
 {
     public class Kulhydrat
     {
-        private double SamletKulhydrat;
+        public double SamletKulhydrat;
 
-        private double Sukkerarter;
+        public double Sukkerarter;
 
-        private double Fibre;
+        public double Fibre;
 
         public Kulhydrat(double samletKulhydrat, double sukkerarter, double fibre)
         {
