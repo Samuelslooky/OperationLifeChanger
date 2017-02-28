@@ -35,8 +35,8 @@
                 <h2><asp:Label runat="server" Text="Protein" /></h2>                
                 
                 <div class="entryPairMedium">
-                    <asp:Label runat="server" Text="Protein (samlet)" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="samletProteinFelt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:Label runat="server" Text="Protein (samlet)" cssclass="text-left col-sm-6 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="samletProteinFelt" cssclass="col-sm-4 col-xs-10"/>
                 </div>
             </div>
 
@@ -87,51 +87,91 @@
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="B2" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminB2Felt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminB2Felt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="B3" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminB3Felt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminB3Felt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="B5" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminB5Felt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminB5Felt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="B6" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminB6Felt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminB6Felt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="B7" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminB7Felt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminB7Felt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="B9" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminB9Felt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminB9Felt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="B12" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminB12Felt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminB12Felt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="C" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminCFelt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminCFelt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="D" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminDFelt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminDFelt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="E" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminEFelt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminEFelt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
                 <div class="entryPairSmall">
                     <asp:Label runat="server" Text="K" cssclass="text-left col-sm-8 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="ViatminKFelt" cssclass="col-sm-4 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="VitaminKFelt" cssclass="col-sm-4 col-xs-12"/>
                 </div> 
             </div>
             <div class="mineraler infoBlock">
                 <h2><asp:Label runat="server" Text="Mineraler" /></h2>
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Calcium" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="CalciumFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Jod" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="JodFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Jern" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="JernFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Magnesium" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="MagnesiumFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Fosfor" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="FosforFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Kobber" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="KobberFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Mangan" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="ManganFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Krom" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="KromFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Molybdæn" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="MolybdænFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
+                <div class="entryPairSmall">
+                    <asp:Label runat="server" Text="Zink" cssclass="text-left col-sm-8 col-xs-12"/>
+                    <asp:TextBox runat="server" ID="ZinkFelt" cssclass="col-sm-4 col-xs-12"/>
+                </div> 
             </div>
 
             <div class="bottomButtonLine">

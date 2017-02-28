@@ -141,6 +141,7 @@
     <Compile Include="Models\Fedt.cs" />
     <Compile Include="Models\Fødevare.cs" />
     <Compile Include="Models\Kulhydrat.cs" />
+    <Compile Include="Models\Mikronæringsstof.cs" />
     <Compile Include="Models\Mineraler.cs" />
     <Compile Include="Models\Protein.cs" />
     <Compile Include="Models\Vitaminer.cs" />

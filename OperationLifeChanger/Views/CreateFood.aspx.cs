@@ -11,14 +11,6 @@ namespace OperationLifeChanger.Models
     {
         List<Fødevare> fødevareListe = new List<Fødevare>();
 
-
-            //            <asp:TextBox runat = "server" ID="fødevareNavnFelt"/><br /><br />
-            //<asp:TextBox runat = "server" ID="KalorierPr100Felt" /><br /><br />
-            //<asp:TextBox runat = "server" ID="samletProteinFelt" /><br /><br />
-            //<asp:TextBox runat = "server" ID="samletKulhydratFelt" /><br /><br />
-            //<asp:TextBox runat = "server" ID="samletFedtFelt" /><br /><br />
-            //<asp:TextBox runat = "server" ID="BeskrivelseFelt" TextMode="MultiLine" Height="200px" Width="300px"/><br /><br />
-
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -26,11 +18,18 @@ namespace OperationLifeChanger.Models
 
         public void createFoodButtonClicked(object sender, EventArgs e)
         {
-            Fedt fedt = new Fedt(double.Parse(samletFedtFelt.Text), 0, 0, 0);
-            Kulhydrat kulhydrat = new Kulhydrat(double.Parse(samletKulhydratFelt.Text), 0, 0);
+            Fedt fedt = new Fedt(double.Parse(samletFedtFelt.Text), double.Parse(MættetFedtFelt.Text), double.Parse(FlerFedtFelt.Text), double.Parse(EnkeltFedtFelt.Text));
+
+            Kulhydrat kulhydrat = new Kulhydrat(double.Parse(samletKulhydratFelt.Text), double.Parse(sukkerarterFelt.Text), double.Parse(FifreFelt.Text));
+
             Protein protein = new Protein(double.Parse(samletProteinFelt.Text));
-            Vitaminer vitaminer = new Vitaminer();
-            Mineraler mineraler = new Mineraler();
+
+            Vitaminer vitaminer = new Vitaminer(double.Parse(VitaminAFelt.Text), double.Parse(VitaminB1Felt.Text), double.Parse(VitaminB2Felt.Text), double.Parse(VitaminB3Felt.Text),
+                double.Parse(VitaminB5Felt.Text), double.Parse(VitaminB6Felt.Text), double.Parse(VitaminB7Felt.Text), double.Parse(VitaminB9Felt.Text), double.Parse(VitaminB12Felt.Text),
+                double.Parse(VitaminCFelt.Text), double.Parse(VitaminDFelt.Text), double.Parse(VitaminEFelt.Text), double.Parse(VitaminKFelt.Text));
+
+            Mineraler mineraler = new Mineraler(double.Parse(CalciumFelt.Text), double.Parse(JodFelt.Text), double.Parse(JernFelt.Text), double.Parse(MagnesiumFelt.Text), 
+                double.Parse(FosforFelt.Text), double.Parse(KobberFelt.Text), double.Parse(ManganFelt.Text), double.Parse(KromFelt.Text), double.Parse(MolybdænFelt.Text), double.Parse(ZinkFelt.Text));
 
             Fødevare fødevare = new Fødevare(fødevareNavnFelt.Text, beskrivelseFelt.Text, protein, fedt, kulhydrat, vitaminer, mineraler);
 

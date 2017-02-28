@@ -130,103 +130,193 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.WebControls.TextBox VitaminB1Felt;
         
         /// <summary>
-        /// ViatminB2Felt control.
+        /// VitaminB2Felt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminB2Felt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminB2Felt;
         
         /// <summary>
-        /// ViatminB3Felt control.
+        /// VitaminB3Felt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminB3Felt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminB3Felt;
         
         /// <summary>
-        /// ViatminB5Felt control.
+        /// VitaminB5Felt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminB5Felt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminB5Felt;
         
         /// <summary>
-        /// ViatminB6Felt control.
+        /// VitaminB6Felt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminB6Felt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminB6Felt;
         
         /// <summary>
-        /// ViatminB7Felt control.
+        /// VitaminB7Felt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminB7Felt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminB7Felt;
         
         /// <summary>
-        /// ViatminB9Felt control.
+        /// VitaminB9Felt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminB9Felt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminB9Felt;
         
         /// <summary>
-        /// ViatminB12Felt control.
+        /// VitaminB12Felt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminB12Felt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminB12Felt;
         
         /// <summary>
-        /// ViatminCFelt control.
+        /// VitaminCFelt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminCFelt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminCFelt;
         
         /// <summary>
-        /// ViatminDFelt control.
+        /// VitaminDFelt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminDFelt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminDFelt;
         
         /// <summary>
-        /// ViatminEFelt control.
+        /// VitaminEFelt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminEFelt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminEFelt;
         
         /// <summary>
-        /// ViatminKFelt control.
+        /// VitaminKFelt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ViatminKFelt;
+        protected global::System.Web.UI.WebControls.TextBox VitaminKFelt;
+        
+        /// <summary>
+        /// CalciumFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox CalciumFelt;
+        
+        /// <summary>
+        /// JodFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox JodFelt;
+        
+        /// <summary>
+        /// JernFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox JernFelt;
+        
+        /// <summary>
+        /// MagnesiumFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox MagnesiumFelt;
+        
+        /// <summary>
+        /// FosforFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox FosforFelt;
+        
+        /// <summary>
+        /// KobberFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox KobberFelt;
+        
+        /// <summary>
+        /// ManganFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ManganFelt;
+        
+        /// <summary>
+        /// KromFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox KromFelt;
+        
+        /// <summary>
+        /// MolybdænFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox MolybdænFelt;
+        
+        /// <summary>
+        /// ZinkFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ZinkFelt;
         
         /// <summary>
         /// OpretFødevareKnap control.
