@@ -32,6 +32,18 @@ namespace OperationLifeChanger.Models
             Vitaminer = vitaminer;
             Mineraler = mineraler;
         }
+
+        public static double BeregnKalorier(double samletProtein, double samletKulhydrat, double samletFedt, double alkohol)
+        {
+            double kalorierPr100 = 0;
+
+            kalorierPr100 = kalorierPr100 + (samletProtein * 4);
+            kalorierPr100 = kalorierPr100 + (samletKulhydrat * 4);
+            kalorierPr100 = kalorierPr100 + (samletFedt * 9);
+            kalorierPr100 = kalorierPr100 + (alkohol * 7);
+
+            return kalorierPr100;
+        }
     }
 }
     

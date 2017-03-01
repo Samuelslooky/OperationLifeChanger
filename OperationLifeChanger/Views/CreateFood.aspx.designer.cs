@@ -22,6 +22,15 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.HtmlControls.HtmlForm opretFødevareForm;
         
         /// <summary>
+        /// KalorierPr100Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label KalorierPr100Felt;
+        
+        /// <summary>
         /// fødevareNavnFelt control.
         /// </summary>
         /// <remarks>

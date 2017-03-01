@@ -44,4 +44,3 @@ E:\Projects\OperationLifeChanger\OperationLifeChanger\bin\Microsoft.ApplicationI
 E:\Projects\OperationLifeChanger\OperationLifeChanger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Projects\OperationLifeChanger\OperationLifeChanger\obj\Debug\OperationLifeChanger.dll
 E:\Projects\OperationLifeChanger\OperationLifeChanger\obj\Debug\OperationLifeChanger.pdb
-E:\Projects\OperationLifeChanger\OperationLifeChanger\obj\Debug\OperationLifeChanger.csprojResolveAssemblyReference.cache

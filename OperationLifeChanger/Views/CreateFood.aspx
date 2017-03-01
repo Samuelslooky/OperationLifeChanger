@@ -16,6 +16,10 @@
             <div class="jumbotron">
                 <h1><asp:Label runat="server" Text="Opret Fødevare" /></h1>
             </div>
+            <div class="col-xs-12">
+                <asp:Label runat="server" Text="Kalorier: " Font-Size="30px"/>
+                <asp:Label runat="server" ID="KalorierPr100Felt" Text="0,0" Font-Size="25px"/>
+            </div>
 
             <div class="infoBlock">
                 <h2><asp:Label runat="server" Text="Overordnet" /></h2>
@@ -36,7 +40,7 @@
                 
                 <div class="entryPairMedium">
                     <asp:Label runat="server" Text="Protein (samlet)" cssclass="text-left col-sm-6 col-xs-12"/>
-                    <asp:TextBox runat="server" ID="samletProteinFelt" cssclass="col-sm-4 col-xs-10"/>
+                    <asp:TextBox runat="server" ID="samletProteinFelt" cssclass="col-sm-4 col-xs-10" OnTextChanged="beregnKalorier"/>
                 </div>
             </div>
 

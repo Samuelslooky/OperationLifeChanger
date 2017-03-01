@@ -35,5 +35,16 @@ namespace OperationLifeChanger.Models
 
             fødevareListe.Add(fødevare);
         }
+
+        public void beregnKalorier(object sender, EventArgs e)
+        {
+            double protein = samletProteinFelt.Text != null ? double.Parse(samletProteinFelt.Text) : 0;
+            double kulhydrat = samletKulhydratFelt.Text != null ? double.Parse(samletKulhydratFelt.Text) : 0;
+            double fedt = samletFedtFelt.Text != null ? double.Parse(samletFedtFelt.Text) : 0;
+            double alkohol = 0;
+
+
+            KalorierPr100Felt.Text = Fødevare.BeregnKalorier(protein, kulhydrat, fedt, alkohol).ToString();
+        }
     }
 }
