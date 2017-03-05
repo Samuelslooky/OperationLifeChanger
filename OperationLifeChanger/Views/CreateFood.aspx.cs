@@ -18,29 +18,29 @@ namespace OperationLifeChanger.Models
 
         public void createFoodButtonClicked(object sender, EventArgs e)
         {
-            Fedt fedt = new Fedt(double.Parse(samletFedtFelt.Text), double.Parse(MættetFedtFelt.Text), double.Parse(FlerFedtFelt.Text), double.Parse(EnkeltFedtFelt.Text));
+            Fedt fedt = new Fedt(double.Parse(samletFedtFelt.Text), double.Parse(MættetFedtFelt.Value), double.Parse(FlerFedtFelt.Value), double.Parse(EnkeltFedtFelt.Value));
 
-            Kulhydrat kulhydrat = new Kulhydrat(double.Parse(samletKulhydratFelt.Text), double.Parse(sukkerarterFelt.Text), double.Parse(FifreFelt.Text));
+            Kulhydrat kulhydrat = new Kulhydrat(double.Parse(samletKulhydratFelt.Text), double.Parse(sukkerarterFelt.Value), double.Parse(FibreFelt.Value));
 
             Protein protein = new Protein(double.Parse(samletProteinFelt.Text));
 
-            Vitaminer vitaminer = new Vitaminer(double.Parse(VitaminAFelt.Text), double.Parse(VitaminB1Felt.Text), double.Parse(VitaminB2Felt.Text), double.Parse(VitaminB3Felt.Text),
-                double.Parse(VitaminB5Felt.Text), double.Parse(VitaminB6Felt.Text), double.Parse(VitaminB7Felt.Text), double.Parse(VitaminB9Felt.Text), double.Parse(VitaminB12Felt.Text),
-                double.Parse(VitaminCFelt.Text), double.Parse(VitaminDFelt.Text), double.Parse(VitaminEFelt.Text), double.Parse(VitaminKFelt.Text));
+            Vitaminer vitaminer = new Vitaminer(double.Parse(VitaminAFelt.Value), double.Parse(VitaminB1Felt.Value), double.Parse(VitaminB2Felt.Value), double.Parse(VitaminB3Felt.Value),
+                double.Parse(VitaminB5Felt.Value), double.Parse(VitaminB6Felt.Value), double.Parse(VitaminB7Felt.Value), double.Parse(VitaminB9Felt.Value), double.Parse(VitaminB12Felt.Value),
+                double.Parse(VitaminCFelt.Value), double.Parse(VitaminDFelt.Value), double.Parse(VitaminEFelt.Value), double.Parse(VitaminKFelt.Value));
 
-            Mineraler mineraler = new Mineraler(double.Parse(CalciumFelt.Text), double.Parse(JodFelt.Text), double.Parse(JernFelt.Text), double.Parse(MagnesiumFelt.Text), 
-                double.Parse(FosforFelt.Text), double.Parse(KobberFelt.Text), double.Parse(ManganFelt.Text), double.Parse(KromFelt.Text), double.Parse(MolybdænFelt.Text), double.Parse(ZinkFelt.Text));
+            Mineraler mineraler = new Mineraler(double.Parse(CalciumFelt.Value), double.Parse(JodFelt.Value), double.Parse(JernFelt.Value), double.Parse(MagnesiumFelt.Value), 
+                double.Parse(FosforFelt.Value), double.Parse(KobberFelt.Value), double.Parse(ManganFelt.Value), double.Parse(KromFelt.Value), double.Parse(MolybdænFelt.Value), double.Parse(ZinkFelt.Value));
 
-            Fødevare fødevare = new Fødevare(fødevareNavnFelt.Text, beskrivelseFelt.Text, protein, fedt, kulhydrat, vitaminer, mineraler);
+            Fødevare fødevare = new Fødevare(fødevareNavnFelt.Value, beskrivelseFelt.Text, protein, fedt, kulhydrat, vitaminer, mineraler);
 
             fødevareListe.Add(fødevare);
         }
 
         public void beregnKalorier(object sender, EventArgs e)
         {
-            double protein = samletProteinFelt.Text != null ? double.Parse(samletProteinFelt.Text) : 0;
-            double kulhydrat = samletKulhydratFelt.Text != null ? double.Parse(samletKulhydratFelt.Text) : 0;
-            double fedt = samletFedtFelt.Text != null ? double.Parse(samletFedtFelt.Text) : 0;
+            double protein = !string.IsNullOrEmpty(samletProteinFelt.Text) ? double.Parse(samletProteinFelt.Text) : 0;
+            double kulhydrat = !string.IsNullOrEmpty(samletKulhydratFelt.Text) ? double.Parse(samletKulhydratFelt.Text) : 0;
+            double fedt = !string.IsNullOrEmpty(samletFedtFelt.Text) ? double.Parse(samletFedtFelt.Text) : 0;
             double alkohol = 0;
 
 

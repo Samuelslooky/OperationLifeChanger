@@ -11,6 +11,18 @@
     margin-bottom: 15px; 
 }
 
+.entryPairLarge input {
+    width: 90%;
+}
+
+.entryPairMedium input {
+    width: 90%;
+}
+
+.entryPairSmall input {
+    width: 90%;
+}
+
 .bottomButtonLine {
     margin-bottom: 15px; 
     margin-top: 25px;
@@ -44,3 +56,17 @@
 .mineraler.infoBlock {
     background:lightblue;
 }
+
+.andet.infoBlock {
+    background:#0094ff;
+}
+
+.error_warning {
+    color: #D8000C;
+    background-color: #FFBABA; 
+    font-size:1em;
+    vertical-align:middle;
+    margin: 10px 0px;
+    padding:12px;
+}
+

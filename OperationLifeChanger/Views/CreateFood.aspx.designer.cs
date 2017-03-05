@@ -37,7 +37,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox fødevareNavnFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText fødevareNavnFelt;
         
         /// <summary>
         /// beskrivelseFelt control.
@@ -73,16 +73,16 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox sukkerarterFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText sukkerarterFelt;
         
         /// <summary>
-        /// FifreFelt control.
+        /// FibreFelt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FifreFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText FibreFelt;
         
         /// <summary>
         /// samletFedtFelt control.
@@ -100,7 +100,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MættetFedtFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText MættetFedtFelt;
         
         /// <summary>
         /// FlerFedtFelt control.
@@ -109,7 +109,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FlerFedtFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText FlerFedtFelt;
         
         /// <summary>
         /// EnkeltFedtFelt control.
@@ -118,7 +118,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EnkeltFedtFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText EnkeltFedtFelt;
         
         /// <summary>
         /// VitaminAFelt control.
@@ -127,7 +127,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminAFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminAFelt;
         
         /// <summary>
         /// VitaminB1Felt control.
@@ -136,7 +136,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB1Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB1Felt;
         
         /// <summary>
         /// VitaminB2Felt control.
@@ -145,7 +145,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB2Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB2Felt;
         
         /// <summary>
         /// VitaminB3Felt control.
@@ -154,7 +154,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB3Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB3Felt;
         
         /// <summary>
         /// VitaminB5Felt control.
@@ -163,7 +163,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB5Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB5Felt;
         
         /// <summary>
         /// VitaminB6Felt control.
@@ -172,7 +172,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB6Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB6Felt;
         
         /// <summary>
         /// VitaminB7Felt control.
@@ -181,7 +181,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB7Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB7Felt;
         
         /// <summary>
         /// VitaminB9Felt control.
@@ -190,7 +190,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB9Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB9Felt;
         
         /// <summary>
         /// VitaminB12Felt control.
@@ -199,7 +199,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminB12Felt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminB12Felt;
         
         /// <summary>
         /// VitaminCFelt control.
@@ -208,7 +208,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminCFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminCFelt;
         
         /// <summary>
         /// VitaminDFelt control.
@@ -217,7 +217,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminDFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminDFelt;
         
         /// <summary>
         /// VitaminEFelt control.
@@ -226,7 +226,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminEFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminEFelt;
         
         /// <summary>
         /// VitaminKFelt control.
@@ -235,7 +235,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox VitaminKFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText VitaminKFelt;
         
         /// <summary>
         /// CalciumFelt control.
@@ -244,7 +244,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CalciumFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText CalciumFelt;
         
         /// <summary>
         /// JodFelt control.
@@ -253,7 +253,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox JodFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText JodFelt;
         
         /// <summary>
         /// JernFelt control.
@@ -262,7 +262,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox JernFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText JernFelt;
         
         /// <summary>
         /// MagnesiumFelt control.
@@ -271,7 +271,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MagnesiumFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText MagnesiumFelt;
         
         /// <summary>
         /// FosforFelt control.
@@ -280,7 +280,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FosforFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText FosforFelt;
         
         /// <summary>
         /// KobberFelt control.
@@ -289,7 +289,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox KobberFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText KobberFelt;
         
         /// <summary>
         /// ManganFelt control.
@@ -298,7 +298,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ManganFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ManganFelt;
         
         /// <summary>
         /// KromFelt control.
@@ -307,7 +307,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox KromFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText KromFelt;
         
         /// <summary>
         /// MolybdænFelt control.
@@ -316,7 +316,7 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MolybdænFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText MolybdænFelt;
         
         /// <summary>
         /// ZinkFelt control.
@@ -325,7 +325,16 @@ namespace OperationLifeChanger.Models {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ZinkFelt;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ZinkFelt;
+        
+        /// <summary>
+        /// AlkoholFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AlkoholFelt;
         
         /// <summary>
         /// OpretFødevareKnap control.
