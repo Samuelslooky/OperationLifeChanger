@@ -38,13 +38,31 @@ namespace OperationLifeChanger.Models
 
         public void beregnKalorier(object sender, EventArgs e)
         {
-            double protein = !string.IsNullOrEmpty(samletProteinFelt.Text) ? double.Parse(samletProteinFelt.Text) : 0;
-            double kulhydrat = !string.IsNullOrEmpty(samletKulhydratFelt.Text) ? double.Parse(samletKulhydratFelt.Text) : 0;
-            double fedt = !string.IsNullOrEmpty(samletFedtFelt.Text) ? double.Parse(samletFedtFelt.Text) : 0;
-            double alkohol = 0;
+            if (CalculatePr100Auto.Checked)
+            {
+                samletProteinFelt.AutoPostBack = true;
+                samletKulhydratFelt.AutoPostBack = true;
+                samletFedtFelt.AutoPostBack = true;
+
+                double protein = !string.IsNullOrEmpty(samletProteinFelt.Text) ? double.Parse(samletProteinFelt.Text) : 0;
+                double kulhydrat = !string.IsNullOrEmpty(samletKulhydratFelt.Text) ? double.Parse(samletKulhydratFelt.Text) : 0;
+                double fedt = !string.IsNullOrEmpty(samletFedtFelt.Text) ? double.Parse(samletFedtFelt.Text) : 0;
+                double alkohol = 0;
 
 
-            KalorierPr100Felt.Text = Fødevare.BeregnKalorier(protein, kulhydrat, fedt, alkohol).ToString();
+                KalorierPr100Felt.Value = Fødevare.BeregnKalorier(protein, kulhydrat, fedt, alkohol).ToString();
+
+                KalorierPr100Felt.Disabled = true;
+            }
+            else
+            {
+                samletProteinFelt.AutoPostBack = true;
+                samletKulhydratFelt.AutoPostBack = true;
+                samletFedtFelt.AutoPostBack = true;
+
+                KalorierPr100Felt.Value = "0";
+                KalorierPr100Felt.Disabled = false;
+            }
         }
     }
 }

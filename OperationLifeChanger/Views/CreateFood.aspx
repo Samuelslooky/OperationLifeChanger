@@ -23,8 +23,6 @@
             </div>
             <div class="col-xs-12">
                 <asp:ValidationSummary runat=server class="error_warning" HeaderText="Fødevaren kunne ikke oprettes på grund af at følgende felter ikke er udfyldt:" />
-                <asp:Label runat="server" Text="Kalorier pr. 100 gram: " Font-Size="30px"/>
-                <asp:Label runat="server" ID="KalorierPr100Felt" Text="0,0" Font-Size="30px"/>
             </div>
 
             <div class="infoBlock">
@@ -38,6 +36,11 @@
                         ErrorMessage="Navn" Display="None">
                     </asp:RequiredFieldValidator>
                 </div>
+                <div class="entryPairLarge">
+                    <asp:Label runat="server" Text="Kalorier pr. 100 gram" cssclass="text-left col-xs-12"/>
+                    <asp:CheckBox ID="CalculatePr100Auto" runat="server" cssclass="col-xs-6" OnCheckedChanged="beregnKalorier" AutoPostBack="true"/>
+                    <input runat="server" ID="KalorierPr100Felt" cssclass="col-xs-6"/>
+                </div> 
                 
                 <div class="entryPairLarge">
                     <asp:Label runat="server" Text="Beskrivelse" cssclass="text-left col-xs-12"/>
@@ -50,7 +53,7 @@
                 
                 <div class="entryPairMedium">
                     <asp:Label runat="server" Text="Protein (samlet)" cssclass="text-left col-xs-12"/>
-                    <asp:TextBox runat="server" ID="samletProteinFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="true"/> * 
+                    <asp:TextBox runat="server" ID="samletProteinFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="false"/> * 
                     <asp:RequiredFieldValidator runat="server" cssclass="col-xs-12"
                         ControlToValidate="samletProteinFelt"
                         ErrorMessage="Protein (samlet)" Display="None"> 
@@ -63,7 +66,7 @@
 
                 <div class="entryPairMedium">
                     <asp:Label runat="server" Text="Kulhydrater (samlet)" cssclass="text-left col-xs-12"/>
-                    <asp:TextBox runat="server" ID="samletKulhydratFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="true"/> *                 
+                    <asp:TextBox runat="server" ID="samletKulhydratFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="false"/> *                 
                     <asp:RequiredFieldValidator runat="server" cssclass="col-xs-12"
                         ControlToValidate="samletKulhydratFelt"
                         ErrorMessage="Kulhydrater (samlet)" Display="None" >
@@ -83,7 +86,7 @@
                 <h2><asp:Label runat="server" Text="Fedt" /></h2>
                 <div class="entryPairMedium">
                     <asp:Label runat="server" Text="Fedt (samlet)" cssclass="text-left col-xs-12"/>
-                    <asp:TextBox runat="server" ID="samletFedtFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="true"/> * 
+                    <asp:TextBox runat="server" ID="samletFedtFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="false"/> * 
                     <asp:RequiredFieldValidator runat="server" cssclass="col-xs-12"
                         ControlToValidate="samletFedtFelt"
                         ErrorMessage="Fedt (samlet)" Display="None">
@@ -100,6 +103,14 @@
                 <div class="entryPairMedium">
                     <asp:Label runat="server" Text="Enkeltumættet fedtsyrer" cssclass="text-left col-xs-12"/>
                     <input runat="server" ID="EnkeltFedtFelt" cssclass="col-xs-12"/>
+                </div> 
+                <div class="entryPairMedium">
+                    <asp:Label runat="server" Text="Omega-3 fedtsyrer" cssclass="text-left col-xs-12"/>
+                    <input runat="server" ID="Omega3Felt" cssclass="col-xs-12"/>
+                </div> 
+                <div class="entryPairMedium">
+                    <asp:Label runat="server" Text="Omega-6 fedtsyrer" cssclass="text-left col-xs-12"/>
+                    <input runat="server" ID="Omega6Felt" cssclass="col-xs-12"/>
                 </div> 
             </div>
             <div class="vitaminer infoBlock">
@@ -205,7 +216,7 @@
 
                 <div class="entryPairMedium">
                     <asp:Label runat="server" Text="Alkohol" cssclass="text-left col-xs-12"/>
-                    <asp:TextBox runat="server" ID="AlkoholFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="true"/> * 
+                    <asp:TextBox runat="server" ID="AlkoholFelt" cssclass="col-xs-12" OnTextChanged="beregnKalorier" AutoPostBack="false"/> * 
                     <asp:RequiredFieldValidator runat="server" cssclass="col-xs-12"
                         ControlToValidate="AlkoholFelt"
                         ErrorMessage="Alkohol" Display="None"> 

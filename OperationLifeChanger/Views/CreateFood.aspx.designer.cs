@@ -22,15 +22,6 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.HtmlControls.HtmlForm opretFødevareForm;
         
         /// <summary>
-        /// KalorierPr100Felt control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label KalorierPr100Felt;
-        
-        /// <summary>
         /// fødevareNavnFelt control.
         /// </summary>
         /// <remarks>
@@ -38,6 +29,24 @@ namespace OperationLifeChanger.Models {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText fødevareNavnFelt;
+        
+        /// <summary>
+        /// CalculatePr100Auto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CalculatePr100Auto;
+        
+        /// <summary>
+        /// KalorierPr100Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText KalorierPr100Felt;
         
         /// <summary>
         /// beskrivelseFelt control.
@@ -119,6 +128,24 @@ namespace OperationLifeChanger.Models {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText EnkeltFedtFelt;
+        
+        /// <summary>
+        /// Omega3Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Omega3Felt;
+        
+        /// <summary>
+        /// Omega6Felt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Omega6Felt;
         
         /// <summary>
         /// VitaminAFelt control.
