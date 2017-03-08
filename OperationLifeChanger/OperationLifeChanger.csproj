@@ -134,16 +134,19 @@
     <Content Include="Javascript\bootstrap_scripts\jquery-3.1.1.slim.min.js" />
     <Content Include="Views\CreateFood.aspx" />
     <Content Include="Views\Main.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AndetFødevareInfo.cs" />
     <Compile Include="Models\DataBaseConnection.cs" />
     <Compile Include="Models\Fedt.cs" />
     <Compile Include="Models\Fødevare.cs" />
-    <Compile Include="Models\Kulhydrat.cs" />
-    <Compile Include="Models\Mikronæringsstof.cs" />
+    <Compile Include="Models\Kulhydrater.cs" />
+    <Compile Include="Models\Næringsstof.cs" />
     <Compile Include="Models\Mineraler.cs" />
-    <Compile Include="Models\Protein.cs" />
+    <Compile Include="Models\Proteiner.cs" />
     <Compile Include="Models\Vitaminer.cs" />
     <Compile Include="Views\CreateFood.aspx.cs">
       <DependentUpon>CreateFood.aspx</DependentUpon>

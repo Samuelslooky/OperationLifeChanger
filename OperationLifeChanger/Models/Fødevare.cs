@@ -12,25 +12,28 @@ namespace OperationLifeChanger.Models
 
         public string Beskrivelse;
 
-        public Protein Protein;
+        public Proteiner Proteiner;
 
         public Fedt Fedt;
 
-        public Kulhydrat Kulhydrat;
+        public Kulhydrater Kulhydrater;
 
         public Vitaminer Vitaminer;
 
         public Mineraler Mineraler;
 
-        public Fødevare(string navn, string beskrivelse, Protein protein, Fedt fedt, Kulhydrat kulhydrat, Vitaminer vitaminer, Mineraler mineraler)
+        public AndetFødevareInfo Andet;
+
+        public Fødevare(string navn, string beskrivelse, Proteiner protein, Fedt fedt, Kulhydrater kulhydrat, Vitaminer vitaminer, Mineraler mineraler, AndetFødevareInfo andet)
         {
             Navn = navn;
             Beskrivelse = beskrivelse;
-            Protein = protein;
+            Proteiner = protein;
             Fedt = fedt;
-            Kulhydrat = kulhydrat;
+            Kulhydrater = kulhydrat;
             Vitaminer = vitaminer;
             Mineraler = mineraler;
+            Andet = andet;
         }
 
         public static double BeregnKalorier(double samletProtein, double samletKulhydrat, double samletFedt, double alkohol)

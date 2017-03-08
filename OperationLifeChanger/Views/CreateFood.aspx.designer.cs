@@ -31,15 +31,6 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.HtmlControls.HtmlInputText fødevareNavnFelt;
         
         /// <summary>
-        /// CalculatePr100Auto control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CalculatePr100Auto;
-        
-        /// <summary>
         /// KalorierPr100Felt control.
         /// </summary>
         /// <remarks>
@@ -47,6 +38,15 @@ namespace OperationLifeChanger.Models {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText KalorierPr100Felt;
+        
+        /// <summary>
+        /// CalculatePr100Auto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CalculatePr100Auto;
         
         /// <summary>
         /// beskrivelseFelt control.
@@ -355,6 +355,15 @@ namespace OperationLifeChanger.Models {
         protected global::System.Web.UI.HtmlControls.HtmlInputText ZinkFelt;
         
         /// <summary>
+        /// KaliumFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText KaliumFelt;
+        
+        /// <summary>
         /// AlkoholFelt control.
         /// </summary>
         /// <remarks>
@@ -362,6 +371,15 @@ namespace OperationLifeChanger.Models {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox AlkoholFelt;
+        
+        /// <summary>
+        /// SaltFelt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText SaltFelt;
         
         /// <summary>
         /// OpretFødevareKnap control.

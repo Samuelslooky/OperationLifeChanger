@@ -7,20 +7,36 @@ namespace OperationLifeChanger.Models
 {
     public class Fedt
     {
-        public double SamletFedt;
+        public List<Næringsstof> fedtListe = new List<Næringsstof>();
 
-        public double MættetFedt;
+        private static string[] fedtNavne = {"SamletFedt#Gram", "MættetFedt#Gram", "FlerumættetFedtsyrer#Gram",
+            "Enkeltumættet#Gram", "Omega3#Gram", "Omega6#Gram"};
 
-        public double FlerumættetFedtsyrer;
-
-        public double EnkeltumættetFedtsyrer;
-
-        public Fedt(double samletFedt, double mættetFedt, double flerumættetFedtsyrer, double enkeltumættetFedtsyrer)
+        public Fedt(double samletFedt, double mættetFedt, double flerumættetFedtsyrer, double enkeltumættetFedtsyrer, double omega3, double omega6)
         {
-            SamletFedt = samletFedt;
-            MættetFedt = mættetFedt;
-            FlerumættetFedtsyrer = flerumættetFedtsyrer;
-            EnkeltumættetFedtsyrer = enkeltumættetFedtsyrer; 
+            DoCreate(samletFedt, mættetFedt, flerumættetFedtsyrer, enkeltumættetFedtsyrer, omega3, omega6);
+        }
+
+        public void DoCreate(params object[] values)
+        {
+            for (int i = 0; i <= fedtNavne.Length; i++)
+            {
+                try
+                {
+                    Næringsstof næringsstof = new Næringsstof(fedtNavne[i], Næringsstof.Type.Fedt, (double)values[i]);
+
+                    fedtListe.Add(næringsstof);
+                }
+                catch (IndexOutOfRangeException)
+                {
+                    break;
+                }
+            }
+        }
+
+        public Fedt()
+        {
+
         }
     }
 }

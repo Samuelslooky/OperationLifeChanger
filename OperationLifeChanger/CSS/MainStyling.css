@@ -11,16 +11,20 @@
     margin-bottom: 15px; 
 }
 
-.entryPairLarge input {
+.entryPairLarge input[type="text"] {
     width: 90%;
 }
 
-.entryPairMedium input {
+.entryPairMedium input[type="text"] {
     width: 90%;
 }
 
-.entryPairSmall input {
+.entryPairSmall input[type="text"] {
     width: 90%;
+}
+
+input[type="text"] {
+    padding-left:5px;
 }
 
 .bottomButtonLine {

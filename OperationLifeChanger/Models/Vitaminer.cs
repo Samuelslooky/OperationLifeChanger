@@ -7,12 +7,12 @@ namespace OperationLifeChanger.Models
 {
     public class Vitaminer
     {
-        public List<Mikronæringsstof> vitaminListe = new List<Mikronæringsstof>();
+        public List<Næringsstof> vitaminListe = new List<Næringsstof>();
 
-        private static string[] VitaminNavne = { "A#Mikro", "B1#Milli", "B2#Milli", "B3#Milli", "B5#Milli", "B6#Milli",
+        private static string[] vitaminNavne = { "A#Mikro", "B1#Milli", "B2#Milli", "B3#Milli", "B5#Milli", "B6#Milli",
             "B7#Milli", "B9#Mikro", "B12#Mikro", "C#Milli", "D#Mikro", "E#Milli", "K#Mikro" };
 
-        public Vitaminer(double vitamin_A, double vitamin_B1, double vitamin_B2, double vitamin_B3, double vitamin_B5, double vitamin_B6, 
+        public Vitaminer(double vitamin_A, double vitamin_B1, double vitamin_B2, double vitamin_B3, double vitamin_B5, double vitamin_B6,
             double vitamin_B7, double vitamin_B9, double vitamin_B12, double vitamin_C, double vitamin_D, double vitamin_E, double vitamin_K)
 
         {
@@ -22,42 +22,19 @@ namespace OperationLifeChanger.Models
 
         public void DoCreate(params object[] values)
         {
-            for (int i = 0; i <= VitaminNavne.Length; i++)
+            for (int i = 0; i <= vitaminNavne.Length; i++)
             {
                 try
                 {
-                    string vitaminString = VitaminNavne[i];
+                    Næringsstof næringsstof = new Næringsstof(vitaminNavne[i], Næringsstof.Type.Vitamin, (double)values[i]);
 
-                    string[] vitaminSplit = vitaminString.Split('#');
-
-                    Mikronæringsstof.Enhed vitaminEnhed = Mikronæringsstof.Enhed.Gram;
-
-                    switch (vitaminSplit[1])
-                    {
-                        case "Gram":
-                            vitaminEnhed = Mikronæringsstof.Enhed.Gram;
-                            break;
-                        case "Milli":
-                            vitaminEnhed = Mikronæringsstof.Enhed.Milligram;
-                            break;
-                        case "Mikro":
-                            vitaminEnhed = Mikronæringsstof.Enhed.Mikrogram;
-                            break;
-                        case "Nano":
-                            vitaminEnhed = Mikronæringsstof.Enhed.Nanogram;
-                            break;
-                    }
-
-                    Mikronæringsstof mikronæringsstof = new Mikronæringsstof(vitaminSplit[0], Mikronæringsstof.Type.Vitamin, (double)values[i], vitaminEnhed);
-
-                    vitaminListe.Add(mikronæringsstof);
+                    vitaminListe.Add(næringsstof);
                 }
-                catch (Exception)
+                catch (IndexOutOfRangeException)
                 {
                     break;
                 }
             }
-            
         }
 
         public Vitaminer()

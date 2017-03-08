@@ -18,20 +18,22 @@ namespace OperationLifeChanger.Models
 
         public void createFoodButtonClicked(object sender, EventArgs e)
         {
-            Fedt fedt = new Fedt(double.Parse(samletFedtFelt.Text), double.Parse(MættetFedtFelt.Value), double.Parse(FlerFedtFelt.Value), double.Parse(EnkeltFedtFelt.Value));
+            Fedt fedt = new Fedt(double.Parse(samletFedtFelt.Text), double.Parse(MættetFedtFelt.Value), double.Parse(FlerFedtFelt.Value), double.Parse(EnkeltFedtFelt.Value), double.Parse(Omega3Felt.Value), double.Parse(Omega6Felt.Value));
 
-            Kulhydrat kulhydrat = new Kulhydrat(double.Parse(samletKulhydratFelt.Text), double.Parse(sukkerarterFelt.Value), double.Parse(FibreFelt.Value));
+            Kulhydrater kulhydrat = new Kulhydrater(double.Parse(samletKulhydratFelt.Text), double.Parse(sukkerarterFelt.Value), double.Parse(FibreFelt.Value));
 
-            Protein protein = new Protein(double.Parse(samletProteinFelt.Text));
+            Proteiner protein = new Proteiner(double.Parse(samletProteinFelt.Text));
 
             Vitaminer vitaminer = new Vitaminer(double.Parse(VitaminAFelt.Value), double.Parse(VitaminB1Felt.Value), double.Parse(VitaminB2Felt.Value), double.Parse(VitaminB3Felt.Value),
                 double.Parse(VitaminB5Felt.Value), double.Parse(VitaminB6Felt.Value), double.Parse(VitaminB7Felt.Value), double.Parse(VitaminB9Felt.Value), double.Parse(VitaminB12Felt.Value),
                 double.Parse(VitaminCFelt.Value), double.Parse(VitaminDFelt.Value), double.Parse(VitaminEFelt.Value), double.Parse(VitaminKFelt.Value));
 
             Mineraler mineraler = new Mineraler(double.Parse(CalciumFelt.Value), double.Parse(JodFelt.Value), double.Parse(JernFelt.Value), double.Parse(MagnesiumFelt.Value), 
-                double.Parse(FosforFelt.Value), double.Parse(KobberFelt.Value), double.Parse(ManganFelt.Value), double.Parse(KromFelt.Value), double.Parse(MolybdænFelt.Value), double.Parse(ZinkFelt.Value));
+                double.Parse(FosforFelt.Value), double.Parse(KobberFelt.Value), double.Parse(ManganFelt.Value), double.Parse(KromFelt.Value), double.Parse(MolybdænFelt.Value), double.Parse(ZinkFelt.Value), double.Parse(KaliumFelt.Value));
 
-            Fødevare fødevare = new Fødevare(fødevareNavnFelt.Value, beskrivelseFelt.Text, protein, fedt, kulhydrat, vitaminer, mineraler);
+            AndetFødevareInfo andet = new AndetFødevareInfo(double.Parse(AlkoholFelt.Text), double.Parse(SaltFelt.Value));
+
+            Fødevare fødevare = new Fødevare(fødevareNavnFelt.Value, beskrivelseFelt.Text, protein, fedt, kulhydrat, vitaminer, mineraler, andet);
 
             fødevareListe.Add(fødevare);
         }
@@ -43,11 +45,12 @@ namespace OperationLifeChanger.Models
                 samletProteinFelt.AutoPostBack = true;
                 samletKulhydratFelt.AutoPostBack = true;
                 samletFedtFelt.AutoPostBack = true;
+                AlkoholFelt.AutoPostBack = true;
 
                 double protein = !string.IsNullOrEmpty(samletProteinFelt.Text) ? double.Parse(samletProteinFelt.Text) : 0;
                 double kulhydrat = !string.IsNullOrEmpty(samletKulhydratFelt.Text) ? double.Parse(samletKulhydratFelt.Text) : 0;
                 double fedt = !string.IsNullOrEmpty(samletFedtFelt.Text) ? double.Parse(samletFedtFelt.Text) : 0;
-                double alkohol = 0;
+                double alkohol = !string.IsNullOrEmpty(AlkoholFelt.Text) ? double.Parse(AlkoholFelt.Text) : 0;
 
 
                 KalorierPr100Felt.Value = Fødevare.BeregnKalorier(protein, kulhydrat, fedt, alkohol).ToString();
@@ -59,6 +62,7 @@ namespace OperationLifeChanger.Models
                 samletProteinFelt.AutoPostBack = true;
                 samletKulhydratFelt.AutoPostBack = true;
                 samletFedtFelt.AutoPostBack = true;
+                AlkoholFelt.AutoPostBack = false;
 
                 KalorierPr100Felt.Value = "0";
                 KalorierPr100Felt.Disabled = false;
