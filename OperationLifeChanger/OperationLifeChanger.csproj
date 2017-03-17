@@ -143,15 +143,15 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\AndetFødevareInfo.cs" />
+    <Compile Include="Models\Fødevarer\AndetFødevareInfo.cs" />
     <Compile Include="Models\DataBaseConnection.cs" />
-    <Compile Include="Models\Fedt.cs" />
-    <Compile Include="Models\Fødevare.cs" />
-    <Compile Include="Models\Kulhydrater.cs" />
-    <Compile Include="Models\Næringsstof.cs" />
-    <Compile Include="Models\Mineraler.cs" />
-    <Compile Include="Models\Proteiner.cs" />
-    <Compile Include="Models\Vitaminer.cs" />
+    <Compile Include="Models\Fødevarer\Fedt.cs" />
+    <Compile Include="Models\Fødevarer\Fødevare.cs" />
+    <Compile Include="Models\Fødevarer\Kulhydrater.cs" />
+    <Compile Include="Models\Fødevarer\Næringsstof.cs" />
+    <Compile Include="Models\Fødevarer\Mineraler.cs" />
+    <Compile Include="Models\Fødevarer\Proteiner.cs" />
+    <Compile Include="Models\Fødevarer\Vitaminer.cs" />
     <Compile Include="Views\CreateFood.aspx.cs">
       <DependentUpon>CreateFood.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
